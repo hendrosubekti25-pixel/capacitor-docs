@@ -1,4 +1,23 @@
----
+---"name": "motocare-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MotoCare personal motorcycle maintenance tracker",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "android:add": "cap add android",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/core": "^7.4.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.0",
+    "vite": "^6.4.1"
+  }
+}
 title: Capacitor Android Plugin Guide
 description: Capacitor Android Plugin Guide
 contributors:
